@@ -7,7 +7,7 @@ import {
 import { BaseClientSideWebPart } from '@microsoft/sp-webpart-base';
 import { PropertyFieldColorPicker, PropertyFieldColorPickerStyle } from '@pnp/spfx-property-controls/lib/PropertyFieldColorPicker';
 import * as strings from 'HelloWorldWebPartStrings';
-import HelloWorld from './components/HelloWorld';
+import { HelloWorld } from './components/HelloWorld';
 import { IHelloWorldProps } from './components/IHelloWorldProps';
 
 export interface IHelloWorldWebPartProps {
