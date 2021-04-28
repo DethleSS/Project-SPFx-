@@ -10,15 +10,16 @@
   "preconfiguredEntries": [{
     "groupId": "5c03119e-3074-46fd-976b-c60198311f70", 
     "group": { "default": "Other" },
-    "title": { "default": "HelloWorld" },
-    "description": { "default": "HelloWorld description" },
+    "title": { "default": "Add new Benefits" },
+    "description": { "default": "Benefits" },
     "officeFabricIconFontName": "Page",
     "properties": {
-      "description": "HelloWorld",
-      "test": "Multi-line text field",
-      "test1": true,
-      "test2": "2",
-      "test3": true
+      "color": "black",
+      "description": "Some description",
+      "nameOfCompany": "Name Of Company",
+      "promoCode": "Promo Code",
+      "valueQrCode": "",
+      "listName": "Categories"
     }
   }]
 }

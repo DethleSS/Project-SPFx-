@@ -37,6 +37,7 @@
   .description {
     @include ms-font-l;
     @include ms-fontColor-white;
+    color: black;
   }
 
   .button {
@@ -46,9 +47,9 @@
 
     // Primary Button
     min-width: 80px;
-    background-color: $ms-color-themePrimary;
+    background-color: white;
     border-color: $ms-color-themePrimary;
-    color: $ms-color-white;
+    color: black;
 
     // Basic Button
     outline: transparent;

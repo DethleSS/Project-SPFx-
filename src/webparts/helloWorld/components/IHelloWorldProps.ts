@@ -3,4 +3,8 @@ export interface IHelloWorldProps {
   nameOfCompany: string;
   valueQrCode: string;
   color: string;
+  context;
+  categories;
+  promoCode: string;
+  arrayCategories: Array<any>;
 }
